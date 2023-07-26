@@ -1,0 +1,32 @@
+.reg-form__avatar-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 250px;
+}
+
+.reg-form__avatar {
+  margin: 5px;
+  width: 48px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out,
+    border-width 0.3s ease-in-out;
+  padding-top: 2px;
+}
+
+.reg-form__avatar:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(45, 202, 255);
+  border-radius: 6px;
+}
+
+/* Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+Icons made by <a href="https://www.flaticon.com/authors/pixelmeetup" title="Pixelmeetup">Pixelmeetup</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+*/

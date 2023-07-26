@@ -1,0 +1,67 @@
+.msg-list {
+  padding: 10px 0px 40px 0px;
+  list-style: none;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  flex-grow: 1;
+}
+
+.msg-list__msg {
+  display: flex;
+  margin: 6px 25px 0px 10px;
+}
+
+.msg-list__msg--thisMember {
+  flex-direction: row-reverse;
+}
+
+.msg-list__member-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.msg-list__member-data--thisMember {
+  flex-direction: row-reverse;
+}
+
+.msg-list__avatar {
+  width: 25px;
+  flex-shrink: 0;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.msg-list__username {
+  display: block;
+  color: black;
+  font-size: 20px;
+  padding: 15px 15px 15px 15px;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+
+.msg-list__text {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(158, 31, 31, 0.786);
+  color: rgb(234, 229, 229);
+  display: inline-block;
+  word-break: break-word;
+  line-height: 20px;
+  user-select: text;
+}
+
+.msg-list__text::selection {
+  background-color: lightgray;
+}
+
+.msg-list__msg--thisMember .msg-list__text {
+  background-color: rgb(18, 100, 100);
+  margin-right: 0px;
+  margin-left: 50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
